@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Sys-Adm.in Teams style",
-  "description": "Sys-addm.in Teams Styles Customization",
-  "version": "1.0",
+  "name": "Compressed MS Teams Styling",
+  "description": "Compressed MS Teams Styles Customization",
+  "version": "0.1",
   "permissions": [
     "tabs", "https://teams.microsoft.com/*"
   ],
