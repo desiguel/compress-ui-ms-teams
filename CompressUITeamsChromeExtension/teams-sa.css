@@ -1,3 +1,7 @@
+body {
+    font-size: 1.5rem;
+}
+
 div#ts-bottom-compose-identifier,
 .ts-message-list-container,
 virtual-repeat > .list-wrap > .item-wrap,
@@ -264,7 +268,7 @@ button.ts-sym.icons-reply.acc-thread-focusable {
     height: 3.6rem;
 }
 
-/*Removing redundant infomation from the title bar*/
+/*Removing redundant information from the title bar*/
 
 .ts-title-bar {
     display: none; !important;
@@ -301,3 +305,15 @@ profile-picture[css-class="team-icon"] {
 .left-rail-selected * {
     background-color: rgba(136, 197, 126, 0.66);
 }
+
+/*Unhiding the "See More" sections*/
+
+see-more {
+    overflow: visible;
+}
+
+/*Adding optional image collapsing*/
+
+/*.ts-image-container {*/
+/*  display: none !important;*/
+/*}*/

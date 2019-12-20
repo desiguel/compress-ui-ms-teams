@@ -15,6 +15,16 @@ window.onload = function() {
     var path = chrome.extension.getURL('teams-sa.css');
     appendStyleNode('sa_custom', path);
 
+    // Add an on-click hide function to the image container.
+    console.log("Here !!");
+    var elements = document.getElementsByClassName('ts-image-container');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].addEventListener('click', function () {
+            alert("Hola!!");
+            this.style.display = 'none !important';
+        });
+    }
+
     if (oldWindowOnload && typeof(oldWindowOnload) === 'function') {
         oldWindowOnload();
     }
